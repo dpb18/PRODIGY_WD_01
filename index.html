@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Website</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+      
+        <nav class="navbar">
+            <a href="index.html" >Home</a>
+            <a href="#"onclick="openNav1()" > About Me</a>
+            <a href="about.html">Skills</a>
+            <a href="#Contact Us">Contact Me</a>
+        </nav>
+     
+    </header>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()" >&times;</a>
+        <div class="overlay-content1">
+        <a href="https://astu.ac.in/?page_id=10468">Personal Info</a>
+        <a href="https://astu.ac.in/?page_id=10460">Academics</a>
+        <a href="https://astu.ac.in/?page_id=10490">Projects</a>
+        <a href="https://astu.ac.in/?page_id=10488">Achievements</a>
+        <a href="https://astu.ac.in/?page_id=10494">Blogs</a>
+        </div>
+      </div>
+    
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3> Hello</h3>
+            <h3> My Name is</h3>
+            <h1>Dhiraj Pratim Barman</h1>
+            <h3>And I am a<span> frontend Web Developer!</span></h3>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <a href="#" class="btn" onclick="openNav()">Know More</a>
+        </div>
+        <div class="home-image">
+       
+        </div>
+        
+    </section>
+    <div id="myNav" class="overlay">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+        <div class="overlay-content">
+          <a href="#">My Skills</a>
+          <a href="#" onclick="openNav1()">About Me</a>
+          <a href="about.html">Download CV</a>
+          <a href="#">Contact Me</a>
+        </div>
+      
+      </div>
+    <div class="footer">
+        <div class="list">
+            <ul>
+                <li>
+                    <h2>COURSES</h2><br>
+                    <a onclick="openNav1()">B.TECH</a><br><br>
+                    <a>M.TECH</a><br><br>
+                    <a>MCA</a><br><br>
+                     
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="list">
+            <ul>
+                <li>
+                    <h2>EXAMS</h2><br>
+                    <a>CIE</a><br><br>
+                    <a>END SEM EXAM</a><br><br>
+                     
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="list">
+            <ul>
+                <li>
+                    <h2>EXAM PREPARATION</h2><br>
+                    <a>PYQ</a><br><br>
+                    <a>NOTES</a><br><br>
+                    <a>BOOKS</a><br><br>
+                     
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="list">
+            <ul>
+                <li>
+                    <h2>CONTACT US</h2><br>
+                    <a>PHONE: 9864534725</a><br><br>
+                    <a>ADDRESS: JORHAT ENGINNERING COLLEGE</a><br><br>
+                     
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="index.js" crossorigin="anonymous"></script>
+</body>
+</html>
